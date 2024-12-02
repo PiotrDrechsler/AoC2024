@@ -3,7 +3,7 @@ import fs from "fs";
 // Read input from the file
 const input = fs.readFileSync("input.txt", "utf8");
 
-// Split input into lines and remove the last empty line
+// Split input into lines 
 
 const code = input.split("\n");
 const row1 = [];
